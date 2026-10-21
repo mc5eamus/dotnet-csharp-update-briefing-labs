@@ -1,0 +1,41 @@
+name: Build labs
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install .NET 10 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Install .NET 11 preview SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 11.0.x
+          dotnet-quality: preview
+
+      - name: Show installed SDKs
+        run: dotnet --list-sdks
+
+      - name: Build attendee projects
+        run: |
+          dotnet build Day1.sln --no-incremental
+          dotnet build Day2.sln --no-incremental
+
+      - name: Build reference solutions
+        run: |
+          dotnet build Day1-Solutions.sln --no-incremental
+          dotnet build Day2-Solutions.sln --no-incremental
