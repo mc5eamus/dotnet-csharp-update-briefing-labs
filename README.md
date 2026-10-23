@@ -5,11 +5,9 @@ update workshop.
 
 ## Slides
 
-The `slides/` directory contains the complete customer-facing HTML bundle:
+The `slides/` directory contains the customer-facing Day 1 HTML bundle:
 
-- [Workshop overview](slides/index.html)
 - [Day 1 — .NET 10 / C# 14](slides/day1.html)
-- [Day 2 — .NET 11 / C# 15](slides/day2.html)
 - [Source registry](slides/sources.html)
 
 Clone or download the repository and open the files locally. Each page is
