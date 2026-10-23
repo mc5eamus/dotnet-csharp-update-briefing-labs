@@ -1,7 +1,20 @@
-# .NET 10 / C# 14 and .NET 11 / C# 15 workshop labs
+# .NET 10 / C# 14 and .NET 11 / C# 15 workshop materials
 
-Hands-on companion repository for the two-day
-[.NET and C# update workshop](https://mc5eamus.github.io/dotnet-csharp-update-briefing/).
+Customer-facing slide decks and hands-on labs for the two-day .NET and C#
+update workshop.
+
+## Slides
+
+The `slides/` directory contains the complete customer-facing HTML bundle:
+
+- [Workshop overview](slides/index.html)
+- [Day 1 — .NET 10 / C# 14](slides/day1.html)
+- [Day 2 — .NET 11 / C# 15](slides/day2.html)
+- [Source registry](slides/sources.html)
+
+Clone or download the repository and open the files locally. Each page is
+self-contained, works without a network connection, and excludes speaker
+notes.
 
 The repository contains nine labs. Every lab has:
 
@@ -51,12 +64,6 @@ dotnet build Day2-Solutions.sln
 
 Day 2 currently targets the .NET 11 RC 1 packages used to verify the workshop.
 Re-check those pinned packages when .NET 11 reaches GA.
-
-## Relationship to the briefing repository
-
-This repository is the canonical source for the labs. The main
-[`dotnet-csharp-update-briefing`](https://github.com/mc5eamus/dotnet-csharp-update-briefing)
-repository consumes it as a Git submodule at `labs/`, pinned to a tested commit.
 
 ## License
 
