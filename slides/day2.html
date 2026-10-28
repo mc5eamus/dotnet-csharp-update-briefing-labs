@@ -3428,45 +3428,6 @@ dotnet tool restore</code></pre>
 
     </section>
 
-    <section class="slide" id="d2-m6-release-index-boundary" data-module-title="6 &middot; Outlook">
-  <h2 data-toc="Known boundary">The .NET 12 boundary: what the release index says</h2>
-  <p class="slide-lead">A useful outlook starts by separating known facts from attractive guesses.</p>
-
-  <div class="callout callout-verified">
-    <div class="callout-title">Checked on this machine: no .NET 12 channel</div>
-    <p>The local <code>releases-index.json</code> check found .NET 11 RC 1 as the latest .NET 11 build and found no .NET 12 channel at all. That means no .NET 12 feature list, preview SDK, API surface or support dates should be presented as fact.</p>
-  </div>
-
-  <div class="grid grid-2">
-    <div class="card"><div class="card-kicker">Safe to say</div><ul><li>What .NET 10 and .NET 11 have already shipped or reached RC with.</li><li>Which direction those shipped changes suggest.</li><li>How to design an upgrade process that does not depend on a roadmap.</li></ul></div>
-    <div class="card"><div class="card-kicker">Not safe to say</div><ul><li>Named .NET 12 APIs.</li><li>Preview dates or GA dates.</li><li>Performance promises, compatibility claims or support deadlines.</li></ul></div>
-  </div>
-
-</section>
-
-    <section class="slide" id="d2-m6-planning-without-roadmap" data-module-title="6 &middot; Outlook">
-  <h2 data-toc="Planning without a roadmap">Plan for cadence, not clairvoyance</h2>
-  <p>You can build a robust upgrade plan without knowing a single future feature. Anchor on support policy, evidence gates and rehearsals.</p>
-
-  <div class="table-wrap">
-  <table>
-    <thead><tr><th>Planning input</th><th>Use it for</th><th>Do not use it for</th></tr></thead>
-    <tbody>
-      <tr><td>Support policy</td><td>Budget windows, approval timing and retirement deadlines.</td><td>Predicting which API will matter next.</td></tr>
-      <tr><td>Shipped signals</td><td>Spotting areas of continuing investment: async, deployment, language safety and data access.</td><td>Promising a future roadmap item to stakeholders.</td></tr>
-      <tr><td>RC rehearsals</td><td>Finding hardware, tooling and dependency friction while rollback is cheap.</td><td>Declaring every preview-era behaviour permanent.</td></tr>
-      <tr><td>Your telemetry</td><td>Choosing which services deserve early adoption.</td><td>Generalising another team's benchmark to your estate.</td></tr>
-    </tbody>
-  </table>
-  </div>
-
-  <div class="callout callout-note">
-    <div class="callout-title">The deliverable is an operating rhythm</div>
-    <p>A repeatable annual rehearsal beats a speculative roadmap slide. It also makes the next LTS move smaller, because you have already found the boring infrastructure failures.</p>
-  </div>
-
-</section>
-
     <section class="slide" id="d2-m6-upgrade-cadence-model" data-module-title="6 &middot; Outlook">
   <h2 data-toc="Cadence model">A cadence that survives not knowing</h2>
   <p>Separate production commitment from learning. The same organisation can be conservative in production and aggressive in evidence gathering.</p>
