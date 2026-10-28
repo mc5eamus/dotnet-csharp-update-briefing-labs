@@ -5,14 +5,25 @@ update workshop.
 
 ## Slides
 
-The `slides/` directory contains the customer-facing Day 1 HTML bundle:
+The `slides/` directory contains the customer-facing HTML decks:
 
 - [Day 1 — .NET 10 / C# 14](slides/day1.html)
+- [Day 2 — .NET 11 / C# 15](slides/day2.html)
 - [Source registry](slides/sources.html)
 
 Clone or download the repository and open the files locally. Each page is
 self-contained, works without a network connection, and excludes speaker
 notes.
+
+## Day 2 code examples
+
+The Day 2 examples are available as complete starter and solution projects:
+
+- [Lab 05 — Runtime Async](Day2/05-RuntimeAsync)
+- [Lab 06 — C# 15 unions and closed hierarchies](Day2/06-CSharp15-Unions)
+- [Lab 07 — .NET 11 libraries](Day2/07-Libraries11)
+- [Lab 08 — ASP.NET Core 11 migration](Day2/08-AspNet11-Migration)
+- [Lab 09 — EF Core 11 migration](Day2/09-EfCore11-Migration)
 
 The repository contains nine labs. Every lab has:
 
