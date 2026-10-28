@@ -1,11 +1,11 @@
 # .NET 10 / C# 14 and .NET 11 / C# 15 workshop materials
 
-Customer-facing slide decks and hands-on labs for the two-day .NET and C#
+Slide decks and hands-on labs for the two-day .NET and C#
 update workshop.
 
 ## Slides
 
-The `slides/` directory contains the customer-facing HTML decks:
+The `slides/` directory contains the HTML decks:
 
 - [Day 1 — .NET 10 / C# 14](slides/day1.html)
 - [Day 2 — .NET 11 / C# 15](slides/day2.html)
