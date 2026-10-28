@@ -15,6 +15,15 @@ Clone or download the repository and open the files locally. Each page is
 self-contained, works without a network connection, and excludes speaker
 notes.
 
+## Day 1 code examples
+
+The Day 1 examples are available as complete starter and solution projects:
+
+- [Lab 01 — C# 14](Day1/01-CSharp14)
+- [Lab 02 — PQC and JSON hardening](Day1/02-Libraries-Pqc-Json)
+- [Lab 03 — Minimal API and OpenAPI](Day1/03-AspNetCore-OpenApi)
+- [Lab 04 — EF Core 10](Day1/04-EfCore10)
+
 ## Day 2 code examples
 
 The Day 2 examples are available as complete starter and solution projects:
